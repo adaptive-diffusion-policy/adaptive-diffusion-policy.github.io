@@ -176,8 +176,63 @@
 <!-- End paper abstract -->
 
 
-<!-- Simulation -->
+
+<!-- Simulation MimicGen -->
 <section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="text-align:left">Simulation (Push-T)</h2>
+        &ensp;
+            
+        <div class="columns is-centered has-text-centered">
+          <!-- Left video -->
+          <div class="column is-half">
+            <div class="item item-video2">
+              <video height="180" width="100%" poster="" id="video2" autoplay controls muted loop>
+                <source src="static/videos/dp.mp4" type="video/mp4">
+              </video>
+              <h2>Diffusion Policy</h2>
+            </div>
+          </div>
+        
+          <!-- Right video -->
+          <div class="column is-half">
+            <div class="item item-video1">
+              <video height="180" width="100%" poster="" id="video1" autoplay controls muted loop>
+                <source src="static/videos/adp.mp4" type="video/mp4">
+              </video>
+              <h2>Adaptive Diffusion Policy (Ours)</h2>
+            </div>
+          </div>
+        </div>
+    
+        <div class="content has-text-justified">
+          &ensp;
+          <p>
+            We evaluated Adaptive Diffusion Policy (ADP) on a diverse set of tasks from the MimicGen benchmark, which features high-precision, contact-rich, and long-horizon manipulation scenarios. MimicGen is known for its challenging setups, including randomized initial states, object variations, and complex multi-step goals such as coffee preparation or multi-part assembly.
+
+
+          </p>
+         Our simulation results demonstrate that ADP performs robustly across these diverse settings, achieving strong task success rates while maintaining low inference latency. Notably, ADP successfully handles fine-grained manipulation and sequential planning challenges that are difficult for prior diffusion-based policies.
+</p>
+          <p>
+The videos below highlight the qualitative performance of ADP on several MimicGen tasks. These results validate ADP's effectiveness in generating accurate and temporally consistent actions even in highly dynamic and unpredictable environments. </p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End -->
+
+
+
+
+  
+
+<!-- Simulation Push-T -->
+<section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
